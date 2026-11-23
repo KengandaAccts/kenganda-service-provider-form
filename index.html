@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kenganda | Service provider form</title>
+<style>body{margin:0;background:#f1f5f4;color:#163b34;font:16px system-ui}header{padding:18px 5%;background:#123e35;color:white;display:flex;justify-content:space-between;gap:20px}header strong{letter-spacing:.12em}iframe{width:100%;height:calc(100vh - 64px);border:0}#notice{padding:16px 5%;background:#fff0c2;margin:0}a{color:inherit}</style></head>
+<body><header><strong>KENGANDA</strong><span>Service provider form</span></header><p id="notice" role="status">This form is being prepared and is not accepting submissions yet.</p><iframe title="Service provider details" src="apps-script/Form.html"></iframe><script src="config.js"></script><script>
+if (/^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec$/.test(window.FORM_URL || '')) {
+ document.querySelector('iframe').src=window.FORM_URL;
+ const notice=document.getElementById('notice'); notice.textContent='If the form does not load, ';
+ const a=document.createElement('a');a.href=window.FORM_URL;a.target='_blank';a.rel='noopener';a.textContent='open the form directly';notice.append(a);
+}
+</script></body></html>
